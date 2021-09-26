@@ -6,45 +6,253 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
     <body>
         <div class="total_window">
             <div class="header_part">
                 <div class="left_header_part">
-                    <img src="logo.png" alt="nop">
+                    <a href="index.html"><img src="images/logo.png" alt="nop"></a>
                 </div>
                 <div class="middle_header_part">
                     <div class="middle_header_part_input">
-                        <div class="one"><span class="material-icons"> search </span></div>
+                        <span class="material-icons"> search </span>
                         <input type="search" placeholder="Search in Drive">
+                        <span class="material-icons"> tune </span>
                     </div>
                 </div>
                 <div class="right_header_part">
-
+                    <div class="part_one" style="margin-left: 110px;">
+                        <span class="material-icons"> help_outline </span>
+                        <span style="margin-left: 20px;" class="material-icons"> settingsb </span>
+                    </div>
+                    <dive class="part_two" style="margin-left: 15px;">
+                        <span style="margin-bottom: 10px;" class="material-icons"> apps </span>
+                        <img style="border-radius: 999px; margin-left: 10px;" src="images/profile.png" alt="">
+                    </dive>
                 </div>
             </div>
             <div class="body_part">
                 <div class="left_body_part">
                     <div class="left_body_button_part">
                         <div class="button_dive">
-                            <img src="new.png" alt="nop">
+                            <a href="#"><img src="images/new.png" alt="nop"></a>
                         </div>    
                     </div>
                     <div class="left_body_icon_part">
-
+                        <div class="left_body_icon_par_content">
+                            <div class="left_body_icon_content">
+                                <span class="material-icons"> arrow_right </span>
+                                <img src="images/driveIcon.png" alt="">
+                                <h5 style="margin-left: 30px;">My Drive</h5>
+                            </div>
+                            <div class="left_body_icon_content">
+                                <span class="material-icons"> arrow_right </span>
+                                <span class="material-icons"> devices </span>
+                                <h5 style="margin-left: 30px;">Computers</h5>
+                            </div>
+                            <div class="left_body_icon_content">
+                                <span style="margin-left: 25px;" class="material-icons"> people_alt </span>
+                                <h5 style="margin-left: 30px;">Shared with me</h5>
+                            </div>
+                            <div class="left_body_icon_content">
+                                <span style="margin-left: 25px;" class="material-icons"> query_builder </span>
+                                <h5 style="margin-left: 30px;">Recent</h5>
+                            </div>
+                            <div  class="left_body_icon_content">
+                                <span style="margin-left: 25px;" class="material-icons"> star_border </span>
+                                <h5 style="margin-left: 30px;">Starred</h5>
+                            </div>
+                            <div class="left_body_icon_content">
+                                <span style="margin-left: 25px;" class="material-icons"> delete_outline </span>
+                                <h5 style="margin-left: 30px;">Bin</h5>
+                            </div>
+                        </div>
+                        <div class="left_body_icon_par_content_bottom">
+                            <div class="left_body_icon_content">
+                                <span style="margin-left: 25px;" class="material-icons"> cloud_queue </span>
+                                <h5 style="margin-left: 30px;">Storage</h5>
+                            </div>
+                            <div  class="storage">
+                                <div style="height: 100%; width: 90%; background: red;">
+                                </div>
+                            </div>
+                            <div class="percent">
+                                <p>13.5 MB of 15 used</p>
+                            </div>
+                            <div style="padding-top: 4px; padding-left: 25px;">
+                                <button style="padding-left: 18px; padding-right: 16px; padding-top: 5px; padding-bottom: 5px; color: rgb(55, 93, 206); ">Buy storage</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="middle_body_part">
                     <div class="middle_body_part_top">
-
+                        <div class="part_top_right" style="margin-top: 1%; margin-bottom: 1%;">
+                            <p style=" font-size: large; float: left;">My Drive</p>
+                            <span style="float: left;" class="material-icons"> arrow_drop_down </span>
+                        </div>
+                        <div class="part_top_left">
+                            <span class="material-icons"> view_list </span>
+                            <span style="padding-left: 20px;" class="material-icons"> info </span>
+                        </div>
+                    </div>
+                    <div style="margin: 10px;">
+                        <h4 style="margin-top: 68px;";">Suggested</h4>
                     </div>
                     <div class="middle_body_par_bottom">
+                        <div class="row">
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/sheets.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/Sheetslogo.png" alt="">
+                                        <p style="float: left;">HTML From Response</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/form.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/formLogo.png" alt="">
+                                        <p style="float: left;">Untitled form</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/docs.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/docsLogo.png" alt="">
+                                        <p style="float: left;">Copy Assignments</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/img.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style=" margin: 5%">
+                                        <img style="float: left;" src="images/ImgLogo.png" alt="">
+                                        <p style="float: left;">IMG_365_265.jpg</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        
+                        
+                        <div class="row">
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/sheets.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/Sheetslogo.png" alt="">
+                                        <p style="float: left;">HTML From Response</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/form.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/formLogo.png" alt="">
+                                        <p style="float: left;">Untitled form</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/docs.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/docsLogo.png" alt="">
+                                        <p style="float: left;">Copy Assignments</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/img.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style=" margin: 5%">
+                                        <img style="float: left;" src="images/ImgLogo.png" alt="">
+                                        <p style="float: left;">IMG_365_265.jpg</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+
+                        <div class="row">
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/sheets.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/Sheetslogo.png" alt="">
+                                        <p style="float: left;">HTML From Response</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/form.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/formLogo.png" alt="">
+                                        <p style="float: left;">Untitled form</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/docs.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style="margin: 5%">
+                                        <img style="float: left;" src="images/docsLogo.png" alt="">
+                                        <p style="float: left;">Copy Assignments</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imag">
+                                    <img src="images/img.png" alt="">
+                                </div>
+                                <div class="discr">
+                                    <div style=" margin: 5%">
+                                        <img style="float: left;" src="images/ImgLogo.png" alt="">
+                                        <p style="float: left;">IMG_365_265.jpg</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="right_body_part">
-
+                    <div> <img style="padding: 20px;" src="images/dat&bulbe&tests.png" alt=""></div>
+                    <div style=" margin-left: 20px; height: 20px; width: 20px; border-bottom: 1px solid rgb(137, 130, 130);"></div>
+                    <span style=" margin: 20px; margin-top: 30px;" class="material-icons"> add </span>
+                    <span style="margin: 20px; margin-top: 263px;" class="material-icons"> chevron_right </span>
                 </div>
             </div>
         </div>
